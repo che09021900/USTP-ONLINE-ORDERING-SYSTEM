@@ -3,7 +3,7 @@
 <?php include '../classess/Brand.php';?>
 <?php
 if (!isset($_GET['brandid']) || $_GET['brandid'] == NULL) {
-   
+   //
    echo "<script>window.location='brandlist.php';</script>";
    
 } else {
