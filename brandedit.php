@@ -10,7 +10,7 @@ if (!isset($_GET['brandid']) || $_GET['brandid'] == NULL) {
 
     $id = preg_replace('/[^-a-zA-Z0-9_]/', '', $_GET['brandid']);
 }
-
+//
 $brand = new Brand();
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
